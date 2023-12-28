@@ -19,6 +19,8 @@
     "Thang Huu Vu <hi@thvu.dev>"
   ],
   "dependencies": {
+		"@auth/core": "^0.19.0",
+    "@auth/sequelize-adapter": "^1.0.12",
     "@radix-ui/react-avatar": "^1.0.3",
     "@radix-ui/react-collapsible": "^1.0.3",
     "@radix-ui/react-dropdown-menu": "^2.0.5",
@@ -27,10 +29,12 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "lucide-react": "^0.274.0",
-    "next": "latest",
-    "next-auth": "beta",
+		"mysql2": "^3.6.5",
+		"next": "^14.0.4",
+		"next-auth": "^4.24.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+		"sequelize": "^6.35.2",
     "tailwind-merge": "^1.14.0",
     "tailwindcss-animate": "^1.0.7"
   },
